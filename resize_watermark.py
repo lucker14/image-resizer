@@ -1,4 +1,19 @@
 #!/usr/bin/env python3
+"""
+Image resize + watermark CLI
+
+Recommended usage: run the provided helper script which creates and uses a
+local virtual environment (.venv) and installs dependencies there:
+
+  ./run_resize.sh    # macOS / Linux
+  run_resize.bat      # Windows (Command Prompt)
+
+Or create a venv manually and run with that Python. The helper scripts will
+create .venv in the project directory if missing and run the tool inside it.
+
+The script never modifies originals — it writes resized copies to the output
+directory (default sibling folder "Orezane").
+"""
 
 import argparse
 import sys
