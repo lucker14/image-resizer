@@ -15,7 +15,7 @@ Files
 1. Open a terminal and change to the project directory:
 
 ```bash
-cd /Users/petrpluhar/Documents/Git/resizer
+cd ~/Documents/Git/resizer
 ```
 
 2. Run the helper script (it will create a `.venv` folder, install dependencies, then run):
@@ -27,7 +27,7 @@ cd /Users/petrpluhar/Documents/Git/resizer
 You can pass additional arguments through to the CLI. Example overriding defaults:
 
 ```bash
-./run_resize.sh --source-dir "/Volumes/NO NAME/Vybrané" --max-side 1000 --watermark-text "Moje značka"
+./run_resize.sh --source-dir "/path/to/images" --max-side 1000 --watermark-text "Watermark"
 ```
 
 ## Quick start (Windows)
