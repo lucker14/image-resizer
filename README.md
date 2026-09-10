@@ -27,4 +27,3 @@ A sibling directory named `Orezane` is created automatically unless `--output-di
 ```bash
 python3 -m pip install -r requirements.txt
 ```
-# image-resizer
